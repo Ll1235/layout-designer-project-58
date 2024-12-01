@@ -123,3 +123,26 @@ header::before {
   font-family: "Open Sans", serif;
   background: var(--color-main);
 }
+
+.text-align-center {
+  text-align: center;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+.preview-image {
+  height: 814px;
+}
+
+.link-pr-img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pr-img {
+  width: 919px;
+  height: 517px;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}

@@ -305,6 +305,9 @@ main {
   color: #2A2626;
 }
 
+
+
+
 .premature-optimization {
   position: relative;
   background-color: rgba(176, 154, 129, 0.9);
@@ -330,6 +333,7 @@ main {
 
 .wrap__premature-img img {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  vertical-align: middle;
 }
 
 .premature-optimization__text {
@@ -350,8 +354,10 @@ main {
 
 .premature-optimization-footer__title {
   text-transform: uppercase;
+  font-family: "Open Sans", serif;
   font-weight: 700;
-  padding: 5px 10px;
+  font-size: 14px;
+  padding: 0px 10px;
   margin-bottom: 20px;
   color: var(--color-brown);
   background: var(--color-white);
@@ -367,6 +373,10 @@ main {
   margin-top: 0;
   break-inside: avoid;
 }
+
+
+
+
 
 .distortion-of-novelty {
   position: relative;

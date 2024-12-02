@@ -70,12 +70,7 @@ header {
   overflow-x: hidden;
 }
 
-header::before
-, #ikea-effect::before
-, #premature-optimization::before
-, #distortion-of-novelty::before
-, #hyperbolic-depreciation::before
-, #errors-in-planning::before 
+header::before ,#ikea-effect::before ,#premature-optimization::before ,#distortion-of-novelty::before ,#hyperbolic-depreciation::before ,#errors-in-planning::before 
 {
   content: "";
   position: absolute;

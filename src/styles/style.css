@@ -269,8 +269,6 @@ main {
   background-color: var(--color-main-dark);
 }
 
-#navigation nav {}
-
 .container-navigation {
   margin-top: -200px;
   padding-top: 200px;
@@ -382,7 +380,7 @@ main {
 .ikea-effect-footer-column p {
   margin-top: 0;
   break-inside: avoid;
-  color: #2A2626;
+  color: #2a2626;
 }
 
 #premature-optimization {
@@ -411,7 +409,7 @@ main {
   font-family: Neucha, serif;
   font-weight: 400;
   font-style: normal;
-  color: #D7CCC0;
+  color: #d7ccc0;
 }
 
 .premature-optimization-text h2 {
@@ -453,7 +451,7 @@ main {
 }
 
 .dof-text {
-  color: #2A2626;
+  color: #2a2626;
 }
 
 .dof-text p {
@@ -487,7 +485,7 @@ main {
 
 .hd-text p {
   font-size: 24px;
-  color: #D7CCC0;
+  color: #d7ccc0;
   font-family: Neucha, serif;
   font-weight: 400;
   font-style: normal;

@@ -179,16 +179,12 @@ main {
 #preview-image::after {
   content: "";
   position: absolute;
-  height: 100px;
+  height: 200px;
   width: 100%;
   z-index: -1;
   bottom: 0;
   left: 0;
   background-color: var(--color-main-dark);
-}
-
-.container-prewiew {
-  padding-bottom: 0;
 }
 
 .wrap-pr-img {
@@ -218,6 +214,10 @@ main {
 }
 
 #navigation nav {
+}
+
+.container-navigation {
+  padding-top: 0;
 }
 
 #navigation nav ul {

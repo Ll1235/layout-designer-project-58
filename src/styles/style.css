@@ -64,7 +64,7 @@ h3 {
 
 header {
   position: relative;
-  background-color: rgba(245, 244, 240, 90%);
+  background-color: rgba(245 244 240 / 90%);
   width: 100%;
   margin: 0 auto;
   overflow-x: hidden;
@@ -329,7 +329,7 @@ main {
   min-height: 905px;
   width: 100%;
   position: relative;
-  background: rgba(245, 244, 240, 90%);
+  background: rgba(245 244 240 / 90%);
 }
 
 .ikea-effect-header {
@@ -385,7 +385,7 @@ main {
 
 #premature-optimization {
   position: relative;
-  background: rgba(176, 154, 129, 100%);
+  background: rgba(176 154 129 / 100%);
   min-height: 855px;
 }
 
@@ -470,7 +470,7 @@ main {
 #hyperbolic-depreciation {
   position: relative;
   min-height: 880px;
-  background-color: rgba(176, 154, 129, 100%);
+  background-color: rgba(176 154 129 / 100%);
 }
 
 .hd-header {
@@ -595,5 +595,4 @@ main {
 }
 
 .footer-contacts a {
-  color: #1085c5;
-}
+  color: #1085c5; }

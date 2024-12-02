@@ -73,7 +73,8 @@ header {
 }
 
 header::before
-,.ikea-effect::before {
+,.ikea-effect::before
+,.premature-optimization::before {
   content: "";
   position: absolute;
   background-image: url(../images/background.png);
@@ -311,18 +312,7 @@ main {
 .premature-optimization {
   position: relative;
   background-color: rgba(176, 154, 129, 0.9);
-}
-
-.premature-optimization::before {
-  content: "";
-  position: absolute;
-  background-image: url(../images/bgheader.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  min-height: 855px;
 }
 
 .premature-optimization-header {

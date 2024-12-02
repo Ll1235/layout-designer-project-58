@@ -37,7 +37,7 @@ h1,
 h2,
 h3 {
   line-height: 1.2em;
-  font-family: "Neucha", serif;
+  font-family: Neucha, serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -64,7 +64,7 @@ h3 {
 
 header {
   position: relative;
-  background: rgba(245, 244, 240, 0.9);
+  background-color: rgba(245, 244, 240, 90%);
   width: 100%;
   margin: 0 auto;
   overflow-x: hidden;
@@ -75,14 +75,15 @@ header::before
 ,.premature-optimization::before
 ,.distortion-of-novelty::before
 ,.hyperbolic-depreciation::before
-,.errors-in-planning::before {
+,.errors-in-planning::before 
+{
   content: "";
   position: absolute;
-  background-image: url(../images/background.png);
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  left: 0px;
-  right: 0px;
+  left: 0;
+  right: 0;
   width: 100%;
   height: 100%;
   opacity: 0.1;
@@ -116,17 +117,17 @@ header h1 {
   right: -270px;
 }
 
-.header__text-block {
+.header-text-block {
   margin-top: 185px;
   display: flex;
 }
 
-.header__text-block-one {
+.header-text-block-one {
   width: 50%;
   margin-right: 15px;
 }
 
-.header__text-block-two {
+.header-text-block-two {
   width: 50%;
   margin-left: 15px;
 }
@@ -178,7 +179,7 @@ main {
   padding-bottom: 0;
 }
 
-.wrap__pr-img {
+.wrap-pr-img {
   position: relative;
   height: 417px;
 }
@@ -229,7 +230,7 @@ main {
 .navigation-title {
   font-size: 52px;
   line-height: 1.2em;
-  font-family: "Neucha", serif;
+  font-family: Neucha, serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -240,7 +241,7 @@ main {
   box-sizing: border-box;
 }
 
-.nav-item__title p {
+.nav-item-title p {
   margin: 0;
 }
 
@@ -248,7 +249,7 @@ main {
   margin-top: 0;
   margin-bottom: 40px;
   font-size: 64px;
-  font-family: "Neucha", serif;
+  font-family: Neucha, serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1;
@@ -266,7 +267,7 @@ main {
   min-height: 905px;
   width: 100%;
   position: relative;
-  background: rgba(245, 244, 240, 0.9);
+  background: rgba(245, 244, 240, 90%);
 }
 
 .ikea-effect-header {
@@ -276,41 +277,36 @@ main {
   margin-bottom: 100px;
 }
 
-.wrap__ikea-img img {
+.wrap-ikea-img img {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   vertical-align: middle;
 }
 
-.ikea-effect-__text p {
+.ikea-effect-text p {
   color: var(--color-opacity-dark);
   font-size: 24px;
-  font-family: "Neucha", serif;
+  font-family: Neucha, serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.ikea-effect-__text h2 {
-  /* color: #2A2626; */
+.ikea-effect-text h2 {
   margin-bottom: 30px;
 }
 
-.ikea-effect-__text h3 {
-  /* color: #2A2626; */
-}
-
-.ikea-effect-footer__title {
+.ikea-effect-footer-title {
   background-color: #b09a81;
   color: #f5f4f0;
   font-family: "Open Sans", serif;
   font-weight: 700;
-  padding: 0px 10px;
+  padding: 0 10px;
   height: 26px;
   margin-bottom: 20px;
   text-transform: uppercase;
   font-size: 14px;
 }
 
-.ikea-effect-footer__title p{
+.ikea-effect-footer-title p{
   margin: 0;
 }
 
@@ -330,7 +326,7 @@ main {
 
 .premature-optimization {
   position: relative;
-  background: rgba(176, 154, 129, 1);
+  background: rgba(176, 154, 129, 100%);
   min-height: 855px;
 }
 
@@ -340,33 +336,33 @@ main {
   margin-bottom: 100px;
 }
 
-.wrap__premature-img img {
+.wrap-premature-img img {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   vertical-align: middle;
 }
 
-.premature-optimization__text {
+.premature-optimization-text {
   color: #fff;
 }
 
-.premature-optimization__text p {
+.premature-optimization-text p {
   font-size: 24px;
-  font-family: "Neucha", serif;
+  font-family: Neucha, serif;
   font-weight: 400;
   font-style: normal;
   color: #D7CCC0;
 }
 
-.premature-optimization__text h2 {
+.premature-optimization-text h2 {
   margin-bottom: 30px;
 }
 
-.premature-optimization-footer__title {
+.premature-optimization-footer-title {
   text-transform: uppercase;
   font-family: "Open Sans", serif;
   font-weight: 700;
   font-size: 14px;
-  padding: 0px 10px;
+  padding: 0 10px;
   margin-bottom: 20px;
   color: var(--color-brown);
   background: var(--color-white);
@@ -393,37 +389,25 @@ main {
   background-color: var(--color-light);
 }
 
-.distortion-of-novelty::before {
-  content: "";
-  position: absolute;
-  background-image: url(../images/bgheader.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-
-.DOF-header {
+.dof-header {
   display: flex;
   column-gap: 30px;
   margin-bottom: 100px;
 }
 
-.DOF__text {
+.dof-text {
   color: #2A2626;
 }
 
-.DOF__text p{
+.dof-text p{
   color: #908d8b;
-  font-family: "Neucha", serif;
+  font-family: Neucha, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 24px;
 }
 
-.DOF__img {
+.dof-img {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   vertical-align: middle;
 }
@@ -434,28 +418,28 @@ main {
 .hyperbolic-depreciation {
   position: relative;
   min-height: 880px;
-  background-color: rgba(176, 154, 129, 1);
+  background-color: rgba(176, 154, 129, 100%);
 }
 
-.HD-header {
+.hd-header {
   display: flex;
   column-gap: 30px;
   margin-bottom: 100px;
 }
 
-.HD__text {
+.hd-text {
   color: #fff;
 }
 
-.HD__text p {
+.hd-text p {
   font-size: 24px;
   color: #D7CCC0;
-  font-family: "Neucha", serif;
+  font-family: Neucha, serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.HD__img {
+.hd-img {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   vertical-align: middle;
 }
@@ -469,36 +453,24 @@ main {
   background-color: #f5f4f0;
 }
 
-.errors-in-planning::before {
-  content: "";
-  position: absolute;
-  background-image: url(../images/bgheader.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-
-.EP-header {
+.ep-header {
   display: flex;
   column-gap: 30px;
   margin-bottom: 100px;
 }
 
-.EP__img {
+.ep-img {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   vertical-align: middle;
 }
 
-.EP__text {
+.ep-text {
   color: #2a2626;
 }
 
-.EP__text p{
+.ep-text p{
   font-size: 24px;
-  font-family: "Neucha", serif;
+  font-family: Neucha, serif;
   font-weight: 400;
   font-style: normal;
   color: #908d8b;
@@ -509,13 +481,7 @@ main {
 
 .footer-block {
   background-color: #42413c;
-  padding-top: 38px;
-  padding-bottom: 40px;
-  padding-left: 55px;
-  padding-right: 55px;
-}
-
-.footer-block {
+  padding: 38px 55px 40px;
   color: #fff;
   display: flex;
   align-items: center;
@@ -559,7 +525,7 @@ main {
   transform: translate(-50%, -50%);
   width: 24px;
   height: 24px;
-  background-image: url(../images/send.svg);
+  background-image: url("../images/send.svg");
   background-repeat: no-repeat;
   object-fit: contain;
 }

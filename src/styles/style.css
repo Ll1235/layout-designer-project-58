@@ -29,11 +29,6 @@ body {
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .navigation ul {
   list-style: none;
   margin: 0;
@@ -139,6 +134,7 @@ header::before {
   font-weight: 700;
   font-family: "Open Sans", serif;
   background: var(--color-main);
+  text-decoration: none;
 }
 
 main {
@@ -179,6 +175,7 @@ main {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  text-decoration: none;
 }
 
 .pr-img {
@@ -206,6 +203,11 @@ main {
   width: 350px;
   flex-shrink: 0;
   box-sizing: border-box;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .navigation-title {
@@ -490,5 +492,82 @@ main {
   font-weight: 400;
   font-style: normal;
   color: #908d8b;
+}
 
+.footer-block {
+  background-color: #42413c;
+  padding-top: 38px;
+  padding-bottom: 40px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.footer-block {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.footer-form {
+  width: 50%;
+}
+
+.form-block {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.form-block-input {
+  box-sizing: border-box;
+  border: none;
+  padding: 15px;
+  height: 50px;
+  width: calc(100% - 70px);
+}
+
+.form-block-button {
+  box-sizing: border-box;
+  width: 70px;
+  height: 50px;
+  background-color: #fe8a02;
+  border: none;
+  padding: 0;
+  position: relative;
+}
+
+.form-block-button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/send.svg);
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+
+.footer-form p{
+  font-size: 18px;
+  line-height: 1;
+}
+
+.footer-form span {
+  font-size: 12px;
+}
+
+.footer-form a {
+  color: inherit;
+}
+
+.footer-contacts {
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-contacts a {
+  color: #1085c5;
 }

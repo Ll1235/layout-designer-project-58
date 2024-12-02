@@ -75,11 +75,11 @@ header {
 header::before {
   content: "";
   position: absolute;
-  background-image: url(../images/bgheader.png);
+  background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  left: 0;
-  right: 0;
+  left: 0px;
+  right: 0px;
   width: 100%;
   height: 100%;
 }

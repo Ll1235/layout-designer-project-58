@@ -124,7 +124,6 @@ header h1 {
 }
 
 .header-link {
-  margin-top: 40px;
   display: inline-block;
   text-transform: uppercase;
   color: var(--color-white);
@@ -134,8 +133,6 @@ header h1 {
   background: var(--color-main);
   text-decoration: none;
 }
-
-
 
 main {
   width: 1400px;

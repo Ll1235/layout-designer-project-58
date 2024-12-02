@@ -74,7 +74,10 @@ header {
 
 header::before
 ,.ikea-effect::before
-,.premature-optimization::before {
+,.premature-optimization::before
+,.distortion-of-novelty::before
+,.hyperbolic-depreciation::before
+,.errors-in-planning::before {
   content: "";
   position: absolute;
   background-image: url(../images/background.png);
@@ -414,24 +417,16 @@ main {
 
 .DOF__img {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  vertical-align: middle;
 }
+
+
+
 
 .hyperbolic-depreciation {
   position: relative;
   min-height: 880px;
-  background-color: rgba(176, 154, 129, 0.9);
-}
-
-.hyperbolic-depreciation::before {
-  content: "";
-  position: absolute;
-  background-image: url(../images/bgheader.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  background-color: rgba(176, 154, 129, 1);
 }
 
 .HD-header {
@@ -454,7 +449,11 @@ main {
 
 .HD__img {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  vertical-align: middle;
 }
+
+
+
 
 .errors-in-planning {
   position: relative;
@@ -482,6 +481,7 @@ main {
 
 .EP__img {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  vertical-align: middle;
 }
 
 .EP__text {
@@ -495,6 +495,9 @@ main {
   font-style: normal;
   color: #908d8b;
 }
+
+
+
 
 .footer-block {
   background-color: #42413c;

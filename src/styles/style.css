@@ -72,7 +72,8 @@ header {
   overflow-x: hidden;
 }
 
-header::before {
+header::before
+,.ikea-effect::before {
   content: "";
   position: absolute;
   background-image: url(../images/background.png);
@@ -253,18 +254,6 @@ main {
   background: rgba(245, 244, 240, 0.9);
 }
 
-.ikea-effect::before {
-  content: "";
-  position: absolute;
-  background-image: url(../images/bgheader.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-
 .ikea-effect-header {
   position: relative;
   display: flex;
@@ -298,7 +287,7 @@ main {
   color: #f5f4f0;
   text-transform: uppercase;
   font-weight: 700;
-  padding: 5px 10px;
+  padding: 0px 10px;
   margin-bottom: 20px;
 }
 

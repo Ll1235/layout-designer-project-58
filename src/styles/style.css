@@ -172,8 +172,20 @@ main {
   margin: 0;
 }
 
+#preview-image {
+  position: relative;
+}
 
-
+#preview-image::after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-main-dark);
+}
 
 .container-prewiew {
   padding-bottom: 0;
@@ -181,7 +193,7 @@ main {
 
 .wrap-pr-img {
   position: relative;
-  height: 417px;
+  height: 517px;
 }
 
 .link-pr-img {
@@ -206,7 +218,6 @@ main {
 }
 
 #navigation nav {
-  margin-top: 100px;
 }
 
 #navigation nav ul {

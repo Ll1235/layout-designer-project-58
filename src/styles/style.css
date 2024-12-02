@@ -20,7 +20,7 @@ body {
   font-style: normal;
   font-size: 16px;
   line-height: 1.6em;
-  color: #2A2626;
+  color: #2a2626;
   max-width: 100%;
   padding: 0;
   margin: 0;
@@ -71,11 +71,11 @@ header {
 }
 
 header::before
-,#ikea-effect::before
-,#premature-optimization::before
-,#distortion-of-novelty::before
-,#hyperbolic-depreciation::before
-,#errors-in-planning::before 
+, #ikea-effect::before
+, #premature-optimization::before
+, #distortion-of-novelty::before
+, #hyperbolic-depreciation::before
+, #errors-in-planning::before 
 {
   content: "";
   position: absolute;

@@ -70,8 +70,72 @@ header {
   overflow-x: hidden;
 }
 
-header::before ,#ikea-effect::before ,#premature-optimization::before ,#distortion-of-novelty::before ,#hyperbolic-depreciation::before ,#errors-in-planning::before 
-{
+header::before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+}
+
+#errors-in-planning::before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+}
+
+#hyperbolic-depreciation::before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+}
+
+#ikea-effect::before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+}
+
+#premature-optimization::before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+}
+
+#distortion-of-novelty::before {
   content: "";
   position: absolute;
   background-image: url("../images/background.png");

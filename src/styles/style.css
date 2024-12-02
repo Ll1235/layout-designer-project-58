@@ -181,6 +181,7 @@ main {
 }
 
 .wrap__pr-img {
+  position: relative;
   height: 417px;
 }
 
@@ -189,7 +190,8 @@ main {
   left: 50%;
   transform: translateX(-50%);
   text-decoration: none;
-  
+  color: inherit;
+  z-index: 10;
 }
 
 .pr-img {

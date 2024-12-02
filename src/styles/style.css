@@ -451,3 +451,44 @@ main {
 .HD__img {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
+
+.errors-in-planning {
+  position: relative;
+  min-height: 919px;
+  background-color: #f5f4f0;
+}
+
+.errors-in-planning::before {
+  content: "";
+  position: absolute;
+  background-image: url(../images/bgheader.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.EP-header {
+  display: flex;
+  column-gap: 30px;
+  margin-bottom: 100px;
+}
+
+.EP__img {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.EP__text {
+  color: #2a2626;
+}
+
+.EP__text p{
+  font-size: 24px;
+  font-family: "Neucha", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #908d8b;
+
+}

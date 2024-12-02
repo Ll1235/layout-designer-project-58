@@ -373,3 +373,43 @@ main {
   margin-top: 0;
   break-inside: avoid;
 }
+
+.distortion-of-novelty {
+  position: relative;
+  min-height: 880px;
+  background-color: var(--color-light);
+}
+
+.distortion-of-novelty::before {
+  content: "";
+  position: absolute;
+  background-image: url(../images/bgheader.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.DOF-header {
+  column-count: 2;
+  column-gap: 30px;
+  margin-bottom: 100px;
+}
+
+.DOF__img {
+  max-width: 100%;
+}
+
+.DOF__text {
+  color: #2A2626;
+}
+
+.DOF__text p{
+  color: #908d8b;
+  font-family: "Neucha", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}

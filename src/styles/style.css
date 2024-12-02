@@ -67,7 +67,7 @@ h3 {
 header {
   position: relative;
   background: rgba(245, 244, 240, 0.9);
-  width: 1440px;
+  height: 914px;
   margin: 0 auto;
   overflow-x: hidden;
 }
@@ -99,6 +99,7 @@ header::before {
 header h1 {
   margin: 0;
 }
+
 
 .header-images {
   position: absolute;
@@ -134,7 +135,6 @@ header h1 {
 }
 
 main {
-  width: 1400px;
   margin: 0 auto;
   overflow-x: hidden;
 }

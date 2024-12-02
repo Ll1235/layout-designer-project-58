@@ -58,7 +58,6 @@ h3 {
 
 .container {
   position: relative;
-  height: 100%;
   width: 1110px;
   margin: 0 auto;
   padding-top: 100px;
@@ -98,12 +97,15 @@ header::before {
   color: var(--color-second-dark);
 }
 
+header h1 {
+  margin: 0;
+}
+
 .header-images {
   position: absolute;
   height: 525px;
   top: 55px;
   right: -270px;
-  max-width: 100%;
 }
 
 .header__text-block {
@@ -121,10 +123,6 @@ header::before {
   margin-left: 15px;
 }
 
-.header__text-block-two p {
-  margin-bottom: 20px;
-}
-
 .header-link {
   margin-top: 40px;
   display: inline-block;
@@ -136,6 +134,8 @@ header::before {
   background: var(--color-main);
   text-decoration: none;
 }
+
+
 
 main {
   width: 1400px;

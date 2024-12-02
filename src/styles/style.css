@@ -263,6 +263,7 @@ main {
 
 .wrap__ikea-img img {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  vertical-align: middle;
 }
 
 .ikea-effect-__text p {
